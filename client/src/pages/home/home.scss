@@ -1,8 +1,9 @@
 .home {
-    background-color: blue;
+    display: flex;
 
-    .title {
-        color: white;
+    .home__container {
+        // background-color: lightblue;
+        flex: 5;
     }
 }
 
