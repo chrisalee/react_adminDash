@@ -1,4 +1,3 @@
-import React from "react";
 import "./navbar.scss";
 import SearchTwoToneIcon from "@mui/icons-material/SearchTwoTone";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";

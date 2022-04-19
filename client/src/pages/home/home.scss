@@ -2,8 +2,18 @@
     display: flex;
 
     .home__container {
-        // background-color: lightblue;
-        flex: 5;
+        flex: 6;
+
+        .home__widgets {
+            display: flex;
+            padding: 20px;
+            gap: 20px;     
+        }
+
+        .home__charts {
+            display: flex;
+            justify-content: space-evenly;
+        }
     }
 }
 

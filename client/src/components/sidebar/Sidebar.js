@@ -1,4 +1,3 @@
-import React from "react";
 import "./sidebar.scss";
 import DashboardTwoToneIcon from '@mui/icons-material/DashboardTwoTone';
 import PersonTwoToneIcon from '@mui/icons-material/PersonTwoTone';
