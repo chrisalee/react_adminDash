@@ -7,7 +7,7 @@ export const userInputs = [
   },
   {
     id: 2,
-    label: "Name and surname",
+    label: "Full Name",
     type: "text",
     placeholder: "John Doe",
   },
@@ -21,12 +21,13 @@ export const userInputs = [
     id: 4,
     label: "Phone",
     type: "text",
-    placeholder: "+1 234 567 89",
+    placeholder: "(234) 567-2289",
   },
   {
     id: 5,
     label: "Password",
     type: "password",
+    placeholder: "**********",
   },
   {
     id: 6,

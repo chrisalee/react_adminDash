@@ -73,6 +73,10 @@
             font-family: 'Roboto Slab', serif;
             cursor: pointer;
             margin-top: 10px;
+
+            &:hover {
+              padding: 7px 30px;
+            }
           }
         }
       }
