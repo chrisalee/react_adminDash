@@ -1,0 +1,93 @@
+.single {
+  display: flex;
+  width: 100%;
+  
+  .single__container {
+    flex: 6;
+    
+    .top {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+      
+      .left {
+        flex: 1;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+
+        .edit__button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          font-size: 12px;        
+          color: #6546d7;
+          background-color: #6546d727;
+          border-radius: 0px 0px 0px 5px;
+          cursor: pointer;
+        }
+
+        .item {
+          display: flex;
+          gap: 20px;
+
+          .item__image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .details {
+            .item__title {
+              margin: 10px;
+              color: #6d6d6d;
+            }
+
+            .item__detail {
+              margin-bottom: 10px;
+              font-size: 14px;
+
+              .item__key {
+                font-weight: bold;
+                color: #6d6d6d;
+                font-size: 10px;
+                margin-right: 7px;
+              }
+
+              .item__value {
+                font-weight: 200;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+
+      .right {
+        flex: 2;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 10px;
+        padding: 20px;
+      }
+    }
+
+    .bottom {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px 20px;
+    }
+
+    .title {
+      color: #6d6d6d;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+}
