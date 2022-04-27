@@ -2,6 +2,32 @@
   height: 600px;
   padding: 20px;
 
+  .datatable__title {
+    width: 100%;
+    font-size: 24px;
+    color: #6d6d6d;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .datatable__link {
+      text-decoration: none;
+      color: #237239;
+      font-size: 16px;
+      padding: 5px 10px;
+      font-weight: 300;
+      border: 1px solid #000000;
+      border-radius: 5px 0px 5px 0px;
+      background-color: #23723924;
+
+      &:hover {
+        background-color: #237239;
+        color: #ffffff;
+      }
+    }
+  }
+
   .cell__withImg {
     display: flex;
     align-items: center;
