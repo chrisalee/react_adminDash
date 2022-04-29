@@ -12,8 +12,13 @@ import InsertChartTwoToneIcon from "@mui/icons-material/InsertChartTwoTone";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { DarkmodeContext } from "../../context/darkmodeContext";
 
 const Sidebar = () => {
+
+  const { dispatch } = useContext(DarkmodeContext);
+
   return (
     <div className="sidebar">
       <div className="top">
@@ -93,11 +98,12 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="bottom">
-        <div className="color__option"></div>
-        <div className="color__option"></div>
-        <div className="color__option"></div>
+        <div className="color__option" onClick={() => dispatch({ type: "LIGHT" })}></div>
+        <div className="color__option" onClick={() => dispatch({ type: "DARK" })}></div>
+        {/* ************* if want to include other color options ************* */}
         {/* <div className="color__option"></div>
         <div className="color__option"></div>
+        <div className="color__option"></div> 
         <div className="color__option"></div> */}
       </div>
     </div>
